@@ -97,14 +97,14 @@ export function About() {
   // 기본 데이터
   const defaultInfo = {
     title: "소개",
-    subtitle: "당신의 전문성과 열정을 소개해주세요.",
+    subtitle: "저에 대해 소개합니다.",
     background: {"image":"","video":"","color":"","opacity":0.1},
-    experienceCards: [{"icon":"briefcase","title":"회사명","period":"2020 - 현재","description":"직무 및 역할"},{"icon":"graduation","title":"학교명","period":"2016 - 2020","description":"전공 및 학위"},{"icon":"award","title":"자격증/수상","period":"2021","description":"설명을 입력하세요"}],
-    skills: [{"icon":"code","title":"프론트엔드 개발","description":"React, TypeScript, Next.js를 활용한 모던 웹 개발"},{"icon":"database","title":"백엔드 개발","description":"Node.js, Python, 데이터베이스 설계 및 구현"},{"icon":"palette","title":"UI/UX 디자인","description":"사용자 중심의 인터페이스 디자인"}],
+    experienceCards: [{"icon":"graduation","title":"단국대학교","period":"2022~","description":"경영학과, 통계데이터사이언스학과"},{"icon":"user","title":"병역의무","period":"2023.04~2024.10","description":"대한민국 해병대 병장 만기전역"},{"icon":"briefcase","title":"단국대학교 단과대대의원 1학년대표","period":"2022","description":" "},{"icon":"briefcase","title":"제 21대 대선 국민의힘 홍보특보","period":"2025.05.23","description":" "},{"icon":"book","title":"Google AI Essential 수료","period":"2025.09.06","description":" "},{"icon":"lightbulb","title":"KYWA 제 2회 청소년데이터분석 공모전","period":"2025.11","description":" "},{"icon":"briefcase","title":"시나공 서포터즈 20기","period":"2025.12~2026.01","description":" "},{"icon":"trophy","title":"ADsP : 데이터분석 준전문가","period":"2025","description":" "},{"icon":"trophy","title":"빅데이터분석실무2급","period":"2025","description":" "},{"icon":"trophy","title":"단국대학교 성적우수상","period":"2025","description":" "},{"icon":"trophy","title":"SQLD : SQL개발자","period":"2026","description":" "},{"icon":"trophy","title":"TOEIC 770","period":"2026","description":" "}],
+    skills: [],
     storyTitle: "나의 이야기",
-    story: ["저는 기술을 통해 사람들의 삶을 더 편리하고 의미 있게 만드는 일에 열정을 가지고 있습니다.","다양한 프로젝트를 통해 문제 해결 능력과 창의적인 사고를 키워왔으며, 팀원들과의 협업을 통해 함께 성장하는 가치를 배웠습니다.","앞으로도 지속적인 학습과 도전을 통해 더 나은 개발자가 되기 위해 노력하겠습니다."],
-    storyImage: "",
-    hobbies: ["📚 독서","☕ 카페 투어","🎨 전시회 관람","✈️ 여행"]
+    story: ["저는 기술을 통해 사람들의 삶을 더 편리하고 의미 있게 만드는 일에 열정을 가지고 있습니다.","다양한 프로젝트를 통해 문제 해결 능력과 창의적인 사고를 키워왔으며, 팀원들과의 협업을 통해 함께 성장하는 가치를 배웠습니다."],
+    storyImage: "/uploads/about-image-1773244628705.jpg",
+    hobbies: ["🏊 수영","🏃 운동","🎸 기타 연주"]
   }
   
   const [aboutInfo, setAboutInfo] = useState(defaultInfo)

@@ -23,15 +23,15 @@ export function Footer() {
   // 기본 데이터
   const defaultInfo = {
     showFooter: true,
-    name: "당신의 이름",
-    description: "당신을 소개하는 짧은 문구를 작성해주세요. ",
+    name: "박근영",
+    description: "정상에서 만납시다.",
     showQuickLinks: true,
     quickLinksTitle: "빠른 링크",
     showContactInfo: true,
     contactTitle: "연락처",
-    phone: "010-0000-0000",
-    email: "your-email@example.com",
-    location: "당신의 위치",
+    phone: "010-3749-3251",
+    email: "qkrrmsdud3251@naver.com",
+    location: "Hello World",
     copyright: "",
     showMadeWith: true,
     madeWithLocation: "Mrbaeksang",
@@ -81,7 +81,7 @@ export function Footer() {
     setFooterInfo(newInfo)
     saveData('footer-info', newInfo)
     // 파일로도 저장
-    await saveToFile('footer', 'Info', newInfo)
+    // await saveToFile('footer', 'Info', newInfo)
   }
   
   // 푸터 전체를 표시하지 않음

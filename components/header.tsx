@@ -25,11 +25,11 @@ const ICON_MAP = {
 
 // 기본 데이터 (파일에는 문자열로 저장되지만 여기서는 컴포넌트로 변환)
 export const defaultConfig = {
-    logo: "제발믿어주세요박근영입니다",
+    logo: "근영",
     logoImage: "",
     showNavBar: true,
     showThemeToggle: true,
-    items: [{"name":"Home","url":"#hero","icon":"Home","show":true},{"name":"About","url":"#about","icon":"User","show":true},{"name":"Projects","url":"#projects","icon":"Briefcase","show":true},{"name":"Contact","url":"#contact","icon":"Mail","show":true},{"name":"갤러리","url":"#gallery","icon":"Camera","show":false},{"name":"블로그","url":"#blog","icon":"Book","show":false}],
+    items: [{"name":"Home","url":"#hero","icon":"Home","show":true},{"name":"About","url":"#about","icon":"User","show":true},{"name":"Project","url":"#projects","icon":"Briefcase","show":true},{"name":"Contact","url":"#contact","icon":"Mail","show":true},{"name":"갤러리","url":"#gallery","icon":"Camera","show":false},{"name":"블로그","url":"#blog","icon":"Book","show":false}],
     siteTitle: "제발믿어주세요박근영입니다",
     siteDescription: "문과지옥에서 살아남기"
   }

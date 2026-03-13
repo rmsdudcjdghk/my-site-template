@@ -71,6 +71,11 @@ export function Contact() {
       "name": "새 링크",
       "icon": "globe",
       "url": "https://blog.naver.com/qkrrmsdud3251"
+    },
+    {
+      "name": "새 링크",
+      "icon": "mail",
+      "url": "qkrrmsdud3251@naver.com"
     }
   ]
   

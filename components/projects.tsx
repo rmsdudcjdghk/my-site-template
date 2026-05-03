@@ -18,7 +18,7 @@ export function Projects() {
     initialDisplay: 2,
     loadMoreCount: 3,
     background: {"image":"","video":"","color":"","opacity":0.1},
-    projects: [] as Array<{ image: string; video?: string; title: string; description: string }>
+    projects: [{"image":"/uploads/project-0-1777810835961.jpg","video":"","title":"개잡주단타치기 웹게임","description":"플레이 링크 : https://dog-jabjudanta-pgy.netlify.app/"}] as Array<{ image: string; video?: string; title: string; description: string }>
   }
 
   const [projectsInfo, setProjectsInfo] = useState(defaultInfo)

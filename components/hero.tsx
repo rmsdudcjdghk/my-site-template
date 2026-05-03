@@ -33,7 +33,7 @@ export function Hero() {
   const { getData, saveData, isEditMode, saveToFile, saveFieldToFile } = useInlineEditor()
   
   // 초기 데이터 - 배열 형태로 변경
-  const defaultSocialLinks = [{"name":"새 링크","icon":"instagram","url":"https://www.instagram.com/atthebiz2022/"},{"name":"새 링크","icon":"globe","url":"https://kksoup.tistory.com/"},{"name":"새 링크","icon":"globe","url":"https://blog.naver.com/qkrrmsdud3251"},{"name":"새 링크","icon":"mail","url":"qkrrmsdud3251@naver.com"}]
+  const defaultSocialLinks = [{"name":"새 링크","icon":"instagram","url":"https://www.instagram.com/atthebiz2022/"},{"name":"새 링크","icon":"globe","url":"https://kksoup.tistory.com/"},{"name":"새 링크","icon":"globe","url":"https://blog.naver.com/qkrrmsdud3251"}]
   
   const defaultInfo = {
     greeting: "안녕하세요,",

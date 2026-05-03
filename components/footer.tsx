@@ -31,7 +31,7 @@ export function Footer() {
     contactTitle: "연락처",
     phone: "010-3749-3251",
     email: "qkrrmsdud3251@naver.com",
-    location: " ",
+    location: "감사합니다.",
     copyright: "© 2026 박근영. All rights reserved.",
     showMadeWith: true,
     madeWithLocation: "Mrbaeksang",

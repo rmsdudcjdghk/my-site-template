@@ -48,8 +48,8 @@ export function Contact() {
     sectionSubtitle: "프로젝트 문의나 협업 제안을 기다리고 있습니다. 편하신 방법으로 연락주세요!",
     qrTitle: "QR 코드로 연락처 저장",
     qrSubtitle: "스캔하면 연락처가 자동으로 저장됩니다",
-    bottomMessage: "정상에서 만납시다.",
-    bottomSubMessage: "No sacrifice too great.",
+    bottomMessage: "정상에서 만납시다. ",
+    bottomSubMessage: "No sacrifice too great",
     qrContent: ["name","phone","email","location","website"],
     profileEmoji: "👤",
     background: {"image":"","video":"","color":"","opacity":0.1}
@@ -71,11 +71,6 @@ export function Contact() {
       "name": "새 링크",
       "icon": "globe",
       "url": "https://blog.naver.com/qkrrmsdud3251"
-    },
-    {
-      "name": "새 링크",
-      "icon": "mail",
-      "url": "qkrrmsdud3251@naver.com"
     }
   ]
   

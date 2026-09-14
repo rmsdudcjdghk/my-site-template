@@ -18,7 +18,7 @@ export function Projects() {
     initialDisplay: 2,
     loadMoreCount: 3,
     background: {"image":"","video":"","color":"","opacity":0.1},
-    projects: [{"image":"/uploads/project-0-1777810835961.jpg","video":"","title":"개잡주단타치기 웹게임","description":"플레이 링크 : https://dog-jabjudanta-pgy.netlify.app/"}] as Array<{ image: string; video?: string; title: string; description: string }>
+    projects: [{"image":"/uploads/project-1789395803827-1789395803992.jpg","video":"","title":"해양수산인재개발원, 한국농어촌공사 대내외환경분석","description":"<외부환경분석>: 거시 환경(PESTEL)분석과 미시환경 종합적 분석을 통해 주요 현안과 변동추이를 제시하여 시사점 전달, 주요 이해관계자의 니즈와 기대 심층 분석 <내부역량분석>: 가치체계 인식도, 7s, Value-Chain 등 경영환경·사업구조·조직현황 분석 등을 통해 내부적 혁신방안을 제시"}] as Array<{ image: string; video?: string; title: string; description: string }>
   }
 
   const [projectsInfo, setProjectsInfo] = useState(defaultInfo)
